@@ -10,6 +10,58 @@
       background-position: cover ;
       background-attachment: fixed;
     }
+
+    .special-link {
+    color: white;
+    background-color: black;
+    padding: 5px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  @media (max-width: 480px) {
+      /* Estilos para dispositivos móviles más antiguos (320 x 480) y iPhone 6/6s/7/8 (375 x 667) */
+      h1 {
+        font-size: 24px;
+      }
+    
+      h2, h3, h4, p {
+        font-size: 16px;
+      }
+    }
+    
+    @media (max-width: 667px) {
+      /* Estilos para iPhone 6 Plus/6s Plus/7 Plus/8 Plus (414 x 736) */
+      h1 {
+        font-size: 28px;
+      }
+    
+      h2, h3, h4, p {
+        font-size: 18px;
+      }
+    }
+    
+    @media (max-width: 768px) {
+      /* Estilos para tablets en modo vertical (768 x 1024) y tablets en modo horizontal (1024 x 768) */
+      h1 {
+        font-size: 32px;
+      }
+    
+      h2, h3, h4, p {
+        font-size: 20px;
+      }
+    }
+    
+    @media (max-width: 1366px) {
+      /* Estilos para laptops y monitores (1366 x 768) */
+      h1 {
+        font-size: 36px;
+      }
+    
+      h2, h3, h4, p {
+        font-size: 24px;
+      }
+    }
+  
   </style>
 </head>
 <body>
@@ -35,7 +87,11 @@
       <img src="elden/Culturageek.com_.ar-Assassins-Creed-Valhalla-1.jpeg" alt="Assassin's Creed Valhalla" width="800px" height="400px"/>
     </li>
   </ol>
-  <a href="../index.html">volver al menu</a>
+  <nav>
+    <ul>
+      <li><a href="../index.html" class="special-link">home</a></li>
+    </ul>
+  </nav>
 </body>
 </html>
 
